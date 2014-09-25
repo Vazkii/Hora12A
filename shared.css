@@ -1,0 +1,392 @@
+html {
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #999;
+}
+
+div {
+	max-height: 999999px;
+}
+
+a {
+  color: #999;
+}
+
+a:hover {
+  color: #555;
+}
+
+select, input, button {
+	border: 1px solid #999;
+	box-shadow: 0px 0px 3px black;
+	color: #777;
+	width: 200px;
+	text-indent: 5px;
+	height: 30px;
+	margin-bottom: 14px;
+}
+
+
+select:disabled {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	color: #ccc;
+	background-color: #ccc;
+}
+
+
+button {
+	background-color: #f5f5f5;
+	margin-top: 10px;
+	width: 300px;
+}
+
+button:hover {
+	background-color: #eee;
+}	
+
+button:active {
+	background-color: #d6d6d6;
+}
+
+hr {
+  background-color: #ccc;
+  border: none;
+  height: 1px;
+  width: calc(100% - 64px);
+}
+
+#header {
+    text-shadow: 1px 1px rgba(0.6, 0.6, 0.6, 0.3);
+}
+
+#hi {
+    font-size: 60px;
+    height: 68px;
+}
+
+#time {
+    font-size: 30px;
+}
+
+#name {
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#num {
+    position: absolute;
+    top: 25px;
+    font-size: 25px;
+}
+
+#name-request {
+    font-size: 15px;
+}
+
+#time-ticker {
+    color: #955;
+}
+
+#day-ticker {
+    color: #559;
+}
+
+#container {
+  margin-bottom: 250px;
+}
+
+.separator-title {
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.content-container {
+    margin-top: 20px
+}
+
+.cell {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid #bbb;
+    color: #777;
+}
+
+.cell-left {
+    font-weight: bold;
+}
+
+.cell-vaz {
+  background-color: #e6e6e6;
+  color: #e6e6e6;
+}
+
+.cell-port {
+  background-color: #FDD;
+}
+
+.cell-api {
+  background-color: #DDF;
+}
+
+.cell-bio {
+  background-color: #DFD;
+}
+
+.cell-mata {
+  background-color: #FFD;
+}
+
+.cell-edf {
+  background-color: #FCF;
+}
+
+.cell-vaz:hover {
+  background-color: #f6f6f6;
+  color: #f6f6f6;
+}
+
+.cell-port:hover {
+  background-color: #FEE;
+}
+
+.cell-api:hover {
+  background-color: #EEF;
+}
+
+.cell-bio:hover {
+  background-color: #EFE;
+}
+
+.cell-mata:hover {
+  background-color: #FFE;
+}html {
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #999;
+}
+
+div {
+	max-height: 999999px;
+}
+
+a {
+  color: #999;
+}
+
+a:hover {
+  color: #555;
+}
+
+select, input, button {
+	border: 1px solid #999;
+	box-shadow: 0px 0px 3px black;
+	color: #777;
+	width: 200px;
+	text-indent: 5px;
+	height: 30px;
+	margin-bottom: 14px;
+}
+
+
+select:disabled {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	color: #ccc;
+	background-color: #ccc;
+}
+
+
+button {
+	background-color: #f5f5f5;
+	margin-top: 10px;
+	width: 300px;
+}
+
+button:hover {
+	background-color: #eee;
+}	
+
+button:active {
+	background-color: #d6d6d6;
+}
+
+hr {
+  background-color: #ccc;
+  border: none;
+  height: 1px;
+  width: calc(100% - 64px);
+}
+
+#header {
+    text-shadow: 1px 1px rgba(0.6, 0.6, 0.6, 0.3);
+}
+
+#hi {
+    font-size: 60px;
+    height: 68px;
+}
+
+#time {
+    font-size: 30px;
+}
+
+#name {
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#num {
+    position: absolute;
+    top: 25px;
+    font-size: 25px;
+}
+
+#name-request {
+    font-size: 15px;
+}
+
+#time-ticker {
+    color: #955;
+}
+
+#day-ticker {
+    color: #559;
+}
+
+#container {
+  margin-bottom: 250px;
+}
+
+.separator-title {
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.content-container {
+    margin-top: 20px
+}
+
+.cell {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid #bbb;
+    color: #777;
+}
+
+.cell-left {
+    font-weight: bold;
+}
+
+.cell-vaz, .cell-nop {
+  background-color: #e6e6e6;
+}
+
+.cell-vaz {
+  color: #e6e6e6;
+}
+
+.cell-port {
+  background-color: #FDD;
+}
+
+.cell-api {
+  background-color: #DDF;
+}
+
+.cell-bio {
+  background-color: #DFD;
+}
+
+.cell-mata {
+  background-color: #FFD;
+}
+
+.cell-edf {
+  background-color: #FCF;
+}
+
+.cell-vaz:hover, .cell-nop:hover {
+  background-color: #f6f6f6;
+}
+
+.cell-vaz:hover {
+  color: #f6f6f6;
+}
+
+.cell-port:hover {
+  background-color: #FEE;
+}
+
+.cell-api:hover {
+  background-color: #EEF;
+}
+
+.cell-bio:hover {
+  background-color: #EFE;
+}
+
+.cell-mata:hover {
+  background-color: #FFE;
+}
+
+.cell-edf:hover {
+  background-color: #FEF;
+}
+
+#events-container {
+  margin-left: calc(50% - 300px);
+  text-align: left;
+  color: #777;
+  width: 600px;
+}
+
+#events-container ul {
+  margin-top: 0px
+}
+
+.event-test {
+  color: #744;
+}
+
+.event-trip {
+  color: #447;
+}
+
+.event-meet {
+  color: #474;
+}
+
+.event-scl {
+  color: #747;
+}
+
+.input-label {
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+}
+
+.error {
+	font-weight: bold;
+	color: #f55;
+}
+
+#footer-top {
+  margin-bottom: -5px;
+}
+
+#clear-data { 
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+#clear-data:hover {
+ color: #555;
+}
